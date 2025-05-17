@@ -3,15 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <title>Scarica il PDF</title>
+  <style>
+    body {
+      background-color: #E6CCFF; /* lilla */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .logo-container {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .logo {
+      height: 60px;
+      width: auto;
+    }
+
+    h1 {
+      color: #4B0082; /* viola scuro per contrasto */
+    }
+
+    a {
+      color: #000080;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- LOGO in alto a destra -->
+  <div class="logo-container">
+    <img src="logo.png" alt="Logo" class="logo">
+  </div>
+
   <h1>Visualizza il tuo PDF</h1>
   <p>
     <a href="GE450___ES2.pdf" target="_blank">Clicca qui per vedere il PDF</a>
   </p>
+
   <h1>Scarica il tuo PDF</h1>
   <p>
     <a href="GE450___ES2.pdf" download>Clicca qui per scaricare il PDF</a>
   </p>
+
 </body>
 </html>
